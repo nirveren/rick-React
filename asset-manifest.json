@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rick-React/static/css/main.ea2af2cb.css",
+    "main.js": "/rick-React/static/js/main.57518b11.js",
+    "static/js/787.3aac5edc.chunk.js": "/rick-React/static/js/787.3aac5edc.chunk.js",
+    "index.html": "/rick-React/index.html",
+    "main.ea2af2cb.css.map": "/rick-React/static/css/main.ea2af2cb.css.map",
+    "main.57518b11.js.map": "/rick-React/static/js/main.57518b11.js.map",
+    "787.3aac5edc.chunk.js.map": "/rick-React/static/js/787.3aac5edc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea2af2cb.css",
+    "static/js/main.57518b11.js"
+  ]
+}

@@ -1,0 +1,82 @@
+.card__container {
+    width: 400px;
+    background-color: white;
+    text-align: left;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card__upperDiv {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin: 0px 30px;
+    padding: 25px 0px 10px;
+}
+
+.card__upperDiv-left {
+    width: 30%;
+}
+
+.card__upperDiv-right {
+    width: 70%;
+}
+
+.card__profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card__statusDiv {
+    display: flex;
+    align-items: center;
+    margin-top: -17px;
+}
+
+.card__status {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.card__statusSize {
+    font-size: .9rem;
+}
+
+.card__lowerDiv {
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 17px;
+    margin: 15px 35px;
+    padding: 0px 0px 40px;
+}
+
+.card__lowerDiv-greyText {
+    color: rgb(153, 156, 168);
+    font-size: .8rem;
+    margin: 5px 0px;
+}
+
+.card__lowerDiv-blackText {
+    font-size: .9rem;
+    margin: 0px;
+}
+
+.card__iconDiv {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+
+}

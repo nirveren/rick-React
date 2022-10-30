@@ -1,0 +1,44 @@
+.basic__card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    justify-content: space-around;
+}
+
+.basic__card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 230px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.basic__card-leftDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.basic__card-profilePic {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+
+
+.basic__card-name {
+    font-size: 20px;
+}
+
+
+.detailed__card-in-basic {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
